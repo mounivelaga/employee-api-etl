@@ -17,7 +17,7 @@ def transform_data(data):
         "company.department",
     ]
 
-    df = df[selected_coulmns]
+    df = df[selected_columns]
 
     df.rename(
         columns={
