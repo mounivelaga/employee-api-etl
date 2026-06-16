@@ -3,7 +3,7 @@ from logger import logger
 
 
 def extract_data(url):
-    logger.info("Extraction Started")
+    logger.info("Extraction Started..")
 
     response = requests.get(url)
     response.raise_for_status()
