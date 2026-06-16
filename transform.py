@@ -29,6 +29,6 @@ def transform_data(data):
         inplace=True,
     )
 
-    logger.info("Transformation Completed")
+    logger.info("Transformation Completed..")
 
     return df
