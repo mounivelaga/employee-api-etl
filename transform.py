@@ -3,7 +3,7 @@ from logger import logger
 
 
 def transform_data(data):
-    logger.info("Transformation Started")
+    logger.info("Transformation Started..")
 
     df = pd.json_normalize(data)
 
