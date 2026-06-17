@@ -10,6 +10,6 @@ def extract_data(url):
 
     data = response.json()
 
-    logger.info("Extraction Completed")
+    logger.info("Extraction Completed..")
 
     return data["users"]
